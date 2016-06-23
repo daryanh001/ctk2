@@ -14,20 +14,20 @@
         </value>
         <next>
           <block type="oled_drawtext" id="44">
-            <field name="TEXT">20+30=</field>
+            <field name="TEXT">5000/1000</field>
             <next>
               <block type="oled_drawnumber" id="87" inline="true">
                 <value name="NUMBER">
                   <block type="math_arithmetic" id="94" inline="true">
-                    <field name="OP">ADD</field>
+                    <field name="OP">DIVIDE</field>
                     <value name="A">
                       <block type="math_number" id="95">
-                        <field name="NUM">20</field>
+                        <field name="NUM">5000</field>
                       </block>
                     </value>
                     <value name="B">
                       <block type="math_number" id="96">
-                        <field name="NUM">30</field>
+                        <field name="NUM">1000</field>
                       </block>
                     </value>
                   </block>
